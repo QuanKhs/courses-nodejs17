@@ -1,0 +1,24 @@
+{
+  "name": "nodejs17",
+  "description": "nodejs courses cybersoft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuanKhs/courses-nodejs17.git"
+  },
+  "author": "jackson-pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuanKhs/courses-nodejs17/issues"
+  },
+  "homepage": "https://github.com/QuanKhs/courses-nodejs17#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "yargs": "^16.2.0"
+  }
+}
