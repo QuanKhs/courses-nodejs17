@@ -1,5 +1,5 @@
 const yargs = require('yargs');
-const { addTask, removeTask, listAllTasks } = require('./task');
+const { addTask, removeTask, updateTask, listAllTasks, detailTask } = require('./task');
 
 yargs.command({
     command: 'add',
@@ -45,7 +45,7 @@ yargs.command({
         },
     },
     handler: (args) => {
-        console.log('update', args);
+        updateTask(args.title, args.desc);
     },
 });
 
@@ -68,7 +68,7 @@ yargs.command({
         },
     },
     handler: (args) => {
-        console.log('list task detail', args);
+        detailTask(args.title);
     },
 });
 
